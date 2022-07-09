@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>360rganic-Nature's Collective</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="src/logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/f6dcf461c1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="navbar">
+        <div class="navbar-top">
+          <div class="navbar-top-left">
+            <ul>
+              <li>
+                <button><a href="about.html">About us</a></button>
+              </li>
+              <li>
+                <button><a href="privacy.html">Privacy</a></button>
+              </li>
+              <li>
+                <button><a href="faq.html">FAQ</a></button>
+              </li>
+              <li>
+                <button><a href="Customercare.html">Customer care</a></button>
+              </li>
+              <div id="myOverlay" class="overlay">
+                <span
+                  class="closebtn"
+                  onclick="closeSearch()"
+                  title="Close Overlay"
+                  ></span
+                >
+                <div class="overlay-content">
+                  <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search" />
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+              <button class="openBtn" onclick="openSearch()">Search</button>
+            </ul>
+          </div>
+          <div class="navbar-top-right">
+            <ul>
+              <li>
+                <button>
+                  <a href=""
+                    ><img src="src/icons8-heart-50.png" alt="wishlist"
+                  /></a>
+                </button>
+              </li>
+              <li>
+                <button><a href="">Track Your Order</a></button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-bottom">
+          <div class="logo">
+            <a href=""><img src="src/logo.png" alt="" /></a>
+          </div>
+          <nav role="navigation" class="primary-navigation">
+            <ul>
+              <li><a href="#">Item1</a></li>
+              <li>
+                <a href="#">Item2 </a>
+                <ul class="dropdown">
+                  <li><a href="#">Item1</a></li>
+                  <li><a href="#">Item2</a></li>
+                  <li><a href="#">Item3</a></li>
+                  <li><a href="#">Item4</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Item3</a></li>
+              <li><a href="#">Item4</a></li>
+              <li><a href="#">Item3</a></li>
+              <li><a href="#">Item3</a></li>
+            </ul>
+          </nav>
+          <div class="navbar-bottom-right">
+            <button>
+              <a href=""> 👨‍💼</a>
+              <h4 id="profile">Profile</h4>
+            </button>
+            <button><a href="">🛒</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="offers">
+        <a href=""><span id="offers"></span></a>
+      </div>
+    </header>
+    <div class="content">
+      <img src="src/content.jpg" alt="" />
+      <h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facilis
+        porro aspernatur tenetur ad quos! Veniam debitis neque eveniet commodi
+        voluptatum magni error. Sit labore impedit similique veritatis
+        perferendis minus, deserunt dolorum voluptate commodi earum. Magni dicta
+        aspernatur, tempore debitis dignissimos delectus reprehenderit. Eligendi
+        placeat reprehenderit provident aperiam necessitatibus porro esse at hic
+        ea nam, facilis omnis soluta aliquid velit minima non? Praesentium
+        facilis architecto fugiat magnam? Veniam, aliquid neque voluptatum
+        nesciunt eligendi odio nisi tenetur esse repellat quasi suscipit nemo
+        ipsum, unde eius, ratione commodi nulla. Quo explicabo minus soluta
+        repellat est sapiente magnam alias, ipsam, corrupti sequi, quas fugiat
+        suscipit aut quaerat dolorum. Placeat, nam inventore, impedit repellat
+        error aut facere, architecto recusandae culpa soluta ipsam eos numquam!
+      </h3>
+      <img src="src/content.jpg" alt="" />
+      <h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum facilis
+        porro aspernatur tenetur ad quos! Veniam debitis neque eveniet commodi
+        voluptatum magni error. Sit labore impedit similique veritatis
+        perferendis minus, deserunt dolorum voluptate commodi earum. Magni dicta
+        aspernatur, tempore debitis dignissimos delectus reprehenderit. Eligendi
+        placeat reprehenderit provident aperiam necessitatibus porro esse at hic
+        ea nam, facilis omnis soluta aliquid velit minima non? Praesentium
+        facilis architecto fugiat magnam? Veniam, aliquid neque voluptatum
+        nesciunt eligendi odio nisi tenetur esse repellat quasi suscipit nemo
+        ipsum, unde eius, ratione commodi nulla. Quo explicabo minus soluta
+        repellat est sapiente magnam alias, ipsam, corrupti sequi, quas fugiat
+        suscipit aut quaerat dolorum. Placeat, nam inventore, impedit repellat
+        error aut facere, architecto recusandae culpa soluta ipsam eos numquam!
+      </h3>
+    </div>
+    <div class="products">
+      <div class="product_card">
+        <div class="product_img">
+          <img src="src/icons8-favorite-cart-50.png" alt="" />
+        </div>
+        <div class="product_details">
+          <h1>Lorem, ipsum.</h1>
+          <div class="ratings">
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut,
+            sapiente?
+          </p>
+          <div class="pricing">
+            <h2>Rs300</h2>
+            <a href="" class="buy_btn">Buy now</a>
+            <button onclick="Toggle1()" id="btnh1" class="btn">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_img">
+          <img src="src/icons8-favorite-cart-50.png" alt="" />
+        </div>
+        <div class="product_details">
+          <h1>Lorem, ipsum.</h1>
+          <div class="ratings">
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut,
+            sapiente?
+          </p>
+          <div class="pricing">
+            <h2>Rs300</h2>
+            <a href="" class="buy_btn">Buy now</a>
+            <button onclick="Toggle2()" id="btnh2" class="btn">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="product_card">
+        <div class="product_img">
+          <img src="src/icons8-favorite-cart-50.png" alt="" />
+        </div>
+        <div class="product_details">
+          <h1>Lorem, ipsum.</h1>
+          <div class="ratings">
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+            <img src="src/star.png" alt="" />
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut,
+            sapiente?
+          </p>
+          <div class="pricing">
+            <h2>Rs300</h2>
+            <a href="" class="buy_btn">Buy now</a>
+            <button onclick="Toggle3()" id="btnh3" class="btn">
+              <i class="fas fa-heart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⬆️</button>
+
+    <!-- responsive -->
+    <div class="mini">
+      <div class="search">
+        <input type="text" placeholder="🔍" />
+      </div>
+      <div class="mini-navbar">
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">HOME</a></li>
+          <li><a href="">HOME</a></li>
+          <li><a href="">HOME</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      function openSearch() {
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function closeSearch() {
+        document.getElementById("myOverlay").style.display = "none";
+      }
+
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      var btnvar1 = document.getElementById("btnh1");
+      function Toggle1() {
+        if (btnvar1.style.color == "red") {
+          btnvar1.style.color = "white";
+        } else {
+          btnvar1.style.color = "red";
+        }
+      }
+
+      var btnvar2 = document.getElementById("btnh2");
+      var btnvar3 = document.getElementById("btnh3");
+      function Toggle2() {
+        if (btnvar2.style.color == "red") {
+          btnvar2.style.color = "white";
+        } else {
+          btnvar2.style.color = "red";
+        }
+      }
+      var btnvar3 = document.getElementById("btnh3");
+      function Toggle3() {
+        if (btnvar3.style.color == "red") {
+          btnvar3.style.color = "white";
+        } else {
+          btnvar3.style.color = "red";
+        }
+      }
+    </script>
+  </body>
+</html>
